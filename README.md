@@ -342,7 +342,7 @@ sudo ./install.sh
 
 ## 版本信息
 
-- FRP 版本：0.65.0
+- FRP 版本：0.65.0：https://github.com/fatedier/frp
 - 脚本版本：1.0
 
 ## 许可证
