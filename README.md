@@ -16,7 +16,7 @@
 
 脚本会自动检测并支持以下平台：
 
-### 🐧 Linux 发行版
+###  Linux 发行版
 - **Ubuntu** (所有版本)
 - **Debian** (所有版本)
 - **CentOS/RHEL/Fedora**
