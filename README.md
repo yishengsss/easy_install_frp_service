@@ -133,11 +133,6 @@ sudo frp uninstall
 ## 文件说明
 
 - **`frp`** - FRP 一体化管理脚本（主要脚本，支持安装和管理）
-- **`demo.sh`** - 演示脚本，展示菜单界面和配置流程（无需root权限）
-- **`test_install.sh`** - 基础测试脚本，验证安装环境和脚本功能
-- **`test_detection.sh`** - 系统检测测试脚本，验证操作系统和架构识别
-- **`test_frp_manager.sh`** - FRP 管理脚本测试工具
-- **`install.sh`** - 传统安装脚本（已由 frp 脚本替代）
 - **`README.md`** - 详细使用说明文档
 
 ## 使用方法
@@ -264,7 +259,7 @@ sudo apt update
 sudo apt install curl wget tar gzip
 
 # 运行安装脚本
-sudo ./install.sh
+sudo ./frp
 ```
 
 ### CentOS/RHEL
@@ -278,7 +273,7 @@ sudo yum install curl wget tar gzip  # CentOS 7
 sudo dnf install curl wget tar gzip  # CentOS 8+/RHEL 8+
 
 # 运行安装脚本
-sudo ./install.sh
+sudo ./frp
 ```
 
 ### Fedora
@@ -290,7 +285,7 @@ sudo dnf update
 sudo dnf install curl wget tar gzip
 
 # 运行安装脚本
-sudo ./install.sh
+sudo ./frp
 ```
 
 ### SUSE/openSUSE
@@ -302,7 +297,7 @@ sudo zypper update
 sudo zypper install curl wget tar gzip
 
 # 运行安装脚本
-sudo ./install.sh
+sudo ./frp
 ```
 
 ### Arch Linux/Manjaro
@@ -314,7 +309,7 @@ sudo pacman -Syu
 sudo pacman -S curl wget tar gzip
 
 # 运行安装脚本
-sudo ./install.sh
+sudo ./frp
 ```
 
 ## 故障排除
