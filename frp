@@ -552,9 +552,6 @@ bindPort = $bind_port
 auth.method = "token"
 auth.token = "$auth_token"
 
-# TCP复用
-proxyBindAddr = "$proxy_bind_addr"
-
 # 日志设置
 log.to = "$LOG_DIR/frps.log"
 log.level = "info"
